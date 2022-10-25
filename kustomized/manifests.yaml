@@ -3,8 +3,8 @@ kind: NetworkPolicy
 metadata:
   labels:
     env: dev
-  name: cluster-a-dev-deny-all-test
-  namespace: test
+  name: cluster-a-dev-deny-all-testing
+  namespace: testing
 spec:
   podSelector: {}
   policyTypes:
@@ -16,8 +16,8 @@ kind: NetworkPolicy
 metadata:
   labels:
     env: pro
-  name: cluster-a-pro-deny-all-test
-  namespace: test
+  name: cluster-a-pro-deny-all-testing
+  namespace: testing
 spec:
   podSelector: {}
   policyTypes:
@@ -29,8 +29,8 @@ kind: NetworkPolicy
 metadata:
   labels:
     env: test
-  name: cluster-a-test-deny-all-test
-  namespace: test
+  name: cluster-a-test-deny-all-testing
+  namespace: testing
 spec:
   podSelector: {}
   policyTypes:

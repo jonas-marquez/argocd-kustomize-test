@@ -4,4 +4,4 @@ kind: Kustomization
 resources:
   #- network-policy-deny-all.yaml
   #- network-policy-deny-all-default.yaml
-  - network-policy-deny-all-test.yaml
+  - network-policy-deny-all-testing.yaml
